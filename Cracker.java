@@ -24,8 +24,7 @@ public class Cracker {
 
             String salt = splitSaltHash[2];
             String hash = splitSaltHash[3];
-            System.out.println("Salt: " + salt);
-            System.out.println("Hash: " + hash);
+            
             for(String commonPassword : commonpasswords){
                 String testHash = MD5Shadow.crypt(commonPassword, salt);
                 if(hash.equals(testHash)){
