@@ -1,3 +1,5 @@
+//Group Members: Sabine Wancique, Seniz Ozdemir
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
